@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: var(--white);
+    font-family: sans-serif;
+}
+
+.card:nth-child(1) {
+    background-color: var(--blue);
+}
+.card:nth-child(2) {
+    background-color: var(--pink);
+}
+.card:nth-child(3) {
+    background-color: var(--yellow);
+}
+
+.card:hover {
+    transform: scale(1.05, 1.05);
+}
+
+.card-text p {
+    font-size: 1.3rem;
+    border-bottom: 1px var(--white) solid;
+    padding: 5px 0;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+
+.about h2 {
+    margin-bottom: 15px;
+}
+
+.profile {
+    display: flex;
+    gap: 30px;
+}
+
+.profile-card {
+    background: #fff;
+    border-radius: 8px;
+    padding: 30px;
+    gap: 10px;
+    text-align: center;
+}
+
+h6 {
+    color: var(--blue);
+}
+
+.profile-card img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 9999px;
+}

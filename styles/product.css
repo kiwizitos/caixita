@@ -1,0 +1,43 @@
+select {
+  width: 300px;
+  padding: 15px;
+  border-radius: 8px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  text-indent: 1px;
+  text-overflow: '';
+}
+input {
+  width: 270px;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+h1 {
+  font-size: 40pt;
+}
+
+.grid-two {
+  align-items: center;
+  text-align: center;
+}
+
+.grid-two div {
+  margin: 10px 0;
+}
+
+.grid-two i {
+  color: var(--pink);
+  padding-right: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .grid-two {
+    align-items: flex-start;
+    text-align: left;
+  }
+  h1 {
+    font-size: 80pt;
+  }
+}
+  
